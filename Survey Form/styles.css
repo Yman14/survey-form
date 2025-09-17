@@ -1,0 +1,57 @@
+body {
+  max-width: 600px;
+  min-width: 400px;
+  margin: auto;
+  background-color: rgb(77,77,150);
+  color: white;
+  font-family: sans-serif, Arial;
+  font-size: 16;
+}
+
+h1, p {
+  text-align: center;
+
+}
+
+.survey-form {
+  background-color: rgba(77, 77, 100, .5);
+  padding: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input, select, textarea{
+  width:100%;
+  min-height: 2em;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  width:unset;
+  margin-right: .5rem;
+  min-height:unset;
+}
+
+.first-fieldset input {
+  display: block;
+}
+
+fieldset {
+  border: none;
+  margin: .6em auto;
+}
+
+button {
+  display: block;
+  margin: 1em auto;
+  width: 40%;
+  height: 2em;
+  border: none;
+  background-color: rgb(77, 77, 180);
+  color: white;
+  font-size: 1.1em;
+
+}
